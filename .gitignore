@@ -1,0 +1,28 @@
+# Dependências do Node
+node_modules/
+
+# Artefatos gerados pelo Cypress (vídeos, screenshots, relatórios)
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
+
+# Variáveis de ambiente (nunca versionar segredos)
+.env
+.env.local
+.env.*.local
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

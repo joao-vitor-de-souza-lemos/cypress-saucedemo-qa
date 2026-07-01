@@ -1,0 +1,33 @@
+{
+  "name": "cypress-saucedemo-qa",
+  "version": "1.0.0",
+  "description": "Projeto completo de QA com Cypress — automação de testes E2E para a aplicação SauceDemo, utilizando Page Object Model, Fixtures, Custom Commands, CI/CD com GitHub Actions e documentação QA profissional.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:auth": "cypress run --spec 'cypress/e2e/auth/**'",
+    "cy:run:products": "cypress run --spec 'cypress/e2e/products/**'",
+    "cy:run:cart": "cypress run --spec 'cypress/e2e/cart/**'",
+    "cy:run:checkout": "cypress run --spec 'cypress/e2e/checkout/**'"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "author": "João Vitor de Souza Lemos",
+  "license": "MIT",
+  "keywords": [
+    "cypress",
+    "qa",
+    "quality-assurance",
+    "automation",
+    "e2e",
+    "testing",
+    "page-object-model",
+    "saucedemo",
+    "github-actions",
+    "ci-cd"
+  ]
+}

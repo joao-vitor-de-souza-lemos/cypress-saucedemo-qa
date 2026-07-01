@@ -1,0 +1,22 @@
+{
+    "validCustomer": {
+        "firstName": "João",
+        "lastName": "Lemos",
+        "postalCode": "08230030"
+    },
+    "missingFirstName": {
+        "firstName": "",
+        "lastName": "Lemos",
+        "postalCode": "08230030"
+    },
+    "missingLastName": {
+        "firstName": "João",
+        "lastName": "",
+        "postalCode": "08230030"
+    },
+    "missingPostalCode": {
+        "firstName": "João",
+        "lastName": "Lemos",
+        "postalCode": ""
+    }
+}
